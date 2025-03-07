@@ -1,0 +1,25 @@
+[project]
+name = "alf"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiohttp>=3.11.13",
+    "beautifulsoup4>=4.13.3",
+    "fastapi>=0.115.11",
+    "html5lib>=1.1",
+    "httpx>=0.28.1",
+    "lxml-html-clean>=0.4.1",
+    "lxml[html-clean]>=5.3.1",
+    "openai>=1.65.4",
+    "pydantic-ai>=0.0.35",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3",
+    "requests-html>=0.10.0",
+    "selenium>=4.29.0",
+    "tavily-python>=0.5.1",
+    "uvicorn>=0.34.0",
+    "webdriver-manager>=4.0.2",
+    "websockets==10.4",
+]
